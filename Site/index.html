@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" id="viewport" content="width=device-width">
+	<title>Паркове мистецтво</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+</head>
+<body>
+	<nav class="navigation">
+		<span class="nav-button animate-underline" onclick="loadPage('main.html')">Головна</span>
+		<span class="nav-button animate-underline" onclick="loadPage('gallery.html')">Галерея</span>
+		<span class="nav-button animate-underline" onclick="loadPage('facts.html')">Факти</span>
+		<span class="nav-button animate-underline" onclick="loadPage('feedback.html')">Відгуки</span>
+	</nav>
+	<div class="page-holder" id="PageHolderCurr">
+		<object type="text/html" data="main.html" class="page"></object>
+	</div>
+	<div class="page-holder" id="PageHolderNext"></div>
+</body>
+</html>
